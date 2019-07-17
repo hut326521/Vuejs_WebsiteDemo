@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ohbotdemo</title>
+  <link rel="stylesheet" href="/dist/main.css">
+  <style>
+      .active{
+        color:red;
+        font-size: 30px;
+      }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <logo></logo>
+    <input type="text" v-model="userinput">
+    <h3 :style="myStyle" v-show="isNotImage">請輸入結尾為.jpg或.png的圖片網址</h3>
+    <listimage v-for="(imageURL, index) in images" :num = "index" :item = "imageURL"></listimage>
+  </div>
+  <script src="/dist/build.js"></script>
+</body>
+
+</html>
