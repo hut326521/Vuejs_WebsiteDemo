@@ -1,18 +1,4 @@
-# ohbotdemo
+# Oh!bot demo Website
 
-> For Oh!Bot Demo
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+使用Vue-js專案實作，可直接於下列網址觀看效果：
+http://140.115.51.66/index.html
